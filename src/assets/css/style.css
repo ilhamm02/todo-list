@@ -1,0 +1,61 @@
+input:focus,
+input:hover,
+button:hover,
+button:active,
+button:focus,
+textarea:focus,
+textarea:hover,
+textarea {
+  box-shadow: none !important;
+  outline: none;
+  resize: none !important;
+}
+
+.todo-box .input-box{
+  display: flex;
+  width: 100%;
+}
+
+.todo-box input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 7px;
+  width: 100%;
+}
+
+.todo-box .tab-box span{
+  cursor: pointer;
+}
+
+.todo-box .list-box div{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.todo-box .list-box div input[type="checkbox"]{
+  width: 20px;
+  cursor: pointer;
+}
+
+.todo-box .list-box div input[type="text"]{
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.todo-box .list-box div input[type="text"]:disabled{
+  display: inline-block;
+  width: 100%;
+  background: white;
+}
+
+.todo-box .list-box div i{
+  cursor: pointer;
+}
+
+.selected-tab{
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: #2a9d8f;
+  text-decoration-thickness: 2px;
+}
